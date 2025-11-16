@@ -6,8 +6,8 @@ A. DevOps Interview Questions ✨
 
 B. Terraform Interview Questions ✨
 
-How would you create a Terraform CI/CD pipeline for different environments?
-What resources have you created using Terraform? Explain using the STAR method.
+1. How would you create a Terraform CI/CD pipeline for different environments?
+2. What resources have you created using Terraform? Explain using the STAR method.
 Why do we need modules? How do you get output values from a module? Have you used public or private modules?
 What will you do if a Terraform file gets corrupted?
 How does Terraform refresh work?
