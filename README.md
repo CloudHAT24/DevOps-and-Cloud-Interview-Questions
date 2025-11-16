@@ -34,28 +34,28 @@ B. Terraform Interview Questions ✨
 26. Explain the purpose of depends_on in Terraform.
 
 27. Terraform Commands
-terraform init                    # Install required plugins, initialize working directory
-terraform init -upgrade           # Upgrade Terraform modules
-terraform get                     # Download/update modules and dependencies
-terraform plan                    # Generate execution plan
-terraform apply                   # Apply changes to infrastructure
-terraform apply -auto-approve     # Apply without prompting
-terraform apply -replace=<resource_name> # Replace specific resource
-terraform workspace new <name>    # Create new workspace
-terraform workspace list          # List all workspaces
-terraform workspace select <name> # Switch workspace
-terraform workspace delete        # Delete a workspace
-terraform import <resource>       # Import existing resource into state
-terraform show                    # View current state
-terraform destroy                 # Destroy infrastructure
-terraform plan -destroy           # Preview destruction
-terraform apply -destroy          # Destroy resources
-terraform destroy -auto-approve  # Destroy without confirmation
-terraform providers               # List installed providers
-terraform version                 # Show Terraform version
-terraform output                  # Show output variables
-terraform apply -refresh=false    # Apply without refreshing state
-terraform state rm <resource>     # Remove resource from state
+- terraform init                    # Install required plugins, initialize working directory
+- terraform init -upgrade           # Upgrade Terraform modules
+- terraform get                     # Download/update modules and dependencies
+- terraform plan                    # Generate execution plan
+- terraform apply                   # Apply changes to infrastructure
+- terraform apply -auto-approve     # Apply without prompting
+- terraform apply -replace=<resource_name> # Replace specific resource
+- terraform workspace new <name>    # Create new workspace
+- terraform workspace list          # List all workspaces
+- terraform workspace select <name> # Switch workspace
+- terraform workspace delete        # Delete a workspace
+- terraform import <resource>       # Import existing resource into state
+- terraform show                    # View current state
+- terraform destroy                 # Destroy infrastructure
+- terraform plan -destroy           # Preview destruction
+- terraform apply -destroy          # Destroy resources
+- terraform destroy -auto-approve  # Destroy without confirmation
+- terraform providers               # List installed providers
+- terraform version                 # Show Terraform version
+- terraform output                  # Show output variables
+- terraform apply -refresh=false    # Apply without refreshing state
+- terraform state rm <resource>     # Remove resource from state
 terraform state pull              # Download current state
 terraform state list              # List all resources
 terraform validate                # Validate syntax/configuration
